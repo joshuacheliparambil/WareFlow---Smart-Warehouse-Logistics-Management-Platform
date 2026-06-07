@@ -1,0 +1,36 @@
+﻿server:
+  port: 8080
+
+spring:
+  application:
+    name: wareflow-backend
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/wareflow}
+    username: ${SPRING_DATASOURCE_USERNAME:wareflow}
+    password: ${SPRING_DATASOURCE_PASSWORD:wareflow}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    open-in-view: false
+  data:
+    redis:
+      host: ${SPRING_DATA_REDIS_HOST:localhost}
+      port: ${SPRING_DATA_REDIS_PORT:6379}
+  kafka:
+    bootstrap-servers: ${SPRING_KAFKA_BOOTSTRAP_SERVERS:localhost:9092}
+    producer:
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+
+wareflow:
+  jwt:
+    secret: ${WAREFLOW_JWT_SECRET:change-this-secret-to-a-very-long-production-secret}
+    expiration-minutes: 480
+  seed:
+    enabled: ${WAREFLOW_SEED_ENABLED:true}
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html

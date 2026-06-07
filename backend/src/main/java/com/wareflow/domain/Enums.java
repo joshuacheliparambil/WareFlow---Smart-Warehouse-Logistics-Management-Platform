@@ -1,0 +1,12 @@
+﻿package com.wareflow.domain;
+
+public final class Enums {
+  private Enums() {}
+
+  public enum RoleName { ADMIN, WAREHOUSE_MANAGER, DELIVERY_AGENT, ANALYST }
+  public enum OrderStatus { CREATED, CONFIRMED, PICKING, DISPATCHED, DELIVERED, CANCELLED, RETURNED, FAILED_FULFILLMENT }
+  public enum DeliveryStatus { ASSIGNED, PICKED_UP, IN_TRANSIT, DELAYED, DELIVERED, FAILED }
+  public enum InventoryDirection { INBOUND, OUTBOUND, DAMAGED, ADJUSTMENT }
+  public enum RiskSeverity { LOW, MEDIUM, HIGH, CRITICAL }
+  public enum EventType { ORDER_CREATED, INVENTORY_UPDATED, DELIVERY_ASSIGNED, ORDER_CANCELLED, ORDER_RETURNED, LOW_STOCK_TRIGGERED, RISK_DETECTED }
+}
