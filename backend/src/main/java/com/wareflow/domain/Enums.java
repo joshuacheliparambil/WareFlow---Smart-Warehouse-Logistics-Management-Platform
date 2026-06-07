@@ -1,4 +1,4 @@
-﻿package com.wareflow.domain;
+package com.wareflow.domain;
 
 public final class Enums {
   private Enums() {}

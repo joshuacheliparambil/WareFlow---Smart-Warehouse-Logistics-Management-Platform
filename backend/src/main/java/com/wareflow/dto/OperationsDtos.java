@@ -1,4 +1,4 @@
-﻿package com.wareflow.dto;
+package com.wareflow.dto;
 
 import com.wareflow.domain.Enums.*;
 import jakarta.validation.constraints.*;

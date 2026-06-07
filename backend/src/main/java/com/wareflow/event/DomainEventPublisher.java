@@ -1,4 +1,4 @@
-﻿package com.wareflow.event;
+package com.wareflow.event;
 
 import com.wareflow.dto.OperationsDtos.EventDto;
 import org.slf4j.*;

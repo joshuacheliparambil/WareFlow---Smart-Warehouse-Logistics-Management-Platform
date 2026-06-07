@@ -1,4 +1,4 @@
-﻿package com.wareflow.repository;
+package com.wareflow.repository;
 
 import com.wareflow.entity.Product;
 import org.springframework.data.jpa.repository.JpaRepository;

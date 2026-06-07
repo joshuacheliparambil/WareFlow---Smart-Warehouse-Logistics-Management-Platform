@@ -1,4 +1,4 @@
-﻿package com.wareflow.entity;
+package com.wareflow.entity;
 
 import jakarta.persistence.*;
 

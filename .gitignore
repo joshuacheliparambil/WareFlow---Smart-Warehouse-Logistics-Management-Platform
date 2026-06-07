@@ -28,6 +28,7 @@ Thumbs.db
 
 # Java
 *.class
+backend/.maven/
 
 # Docker / runtime
 postgres_data/

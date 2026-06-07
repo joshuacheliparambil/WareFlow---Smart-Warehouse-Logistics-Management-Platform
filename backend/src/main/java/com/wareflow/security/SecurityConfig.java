@@ -1,4 +1,4 @@
-﻿package com.wareflow.security;
+package com.wareflow.security;
 
 import com.wareflow.repository.UserRepository;
 import java.util.stream.Collectors;

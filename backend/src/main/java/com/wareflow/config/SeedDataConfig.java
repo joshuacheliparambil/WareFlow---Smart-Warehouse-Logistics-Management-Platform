@@ -1,4 +1,4 @@
-﻿package com.wareflow.config;
+package com.wareflow.config;
 
 import com.wareflow.domain.Enums.*;
 import com.wareflow.entity.*;

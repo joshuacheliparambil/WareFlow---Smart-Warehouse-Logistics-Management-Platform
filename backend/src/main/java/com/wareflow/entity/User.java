@@ -1,4 +1,4 @@
-﻿package com.wareflow.entity;
+package com.wareflow.entity;
 
 import com.wareflow.domain.Enums.RoleName;
 import jakarta.persistence.*;

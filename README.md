@@ -90,6 +90,20 @@ npm install
 npm run dev
 ```
 
+For a quick backend + Swagger demo without Docker/PostgreSQL, run:
+
+```powershell
+cd backend
+.\start-local.ps1
+```
+
+Then open:
+
+- Swagger UI: http://localhost:8080/swagger-ui.html
+- OpenAPI JSON: http://localhost:8080/v3/api-docs
+
+The local profile uses an in-memory H2 database and Spring's simple cache so the backend can boot on a clean Windows machine.
+
 Demo credentials:
 
 | Role | Email | Password |
